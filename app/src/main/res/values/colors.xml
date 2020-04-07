@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#b76422</color>
+    <color name="colorPrimaryDark">#B76422</color>
+    <color name="colorAccent">#000000</color>
+    <color name="trasparente_carregamento">#d7b0b0b0</color>
+    <color name="recomendação">#649500</color>
+    <color name="botao_principal">#E27116</color>
+    <color name="botao_secundario">#000000</color>
+    <color name="branco">#FFFFFF</color>
+    <color name="separação">#F13E3E3E</color>
+</resources>

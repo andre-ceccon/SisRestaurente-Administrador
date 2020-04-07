@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ModelDB:
+        CollectionReference(); salvaFotoItem() -->
+    <string name="key_path_db_cad" translatable="false">cardapios</string>
+
+    <!-- ModelDB:
+        getCollectionReferenceCardapio() -->
+    <string name="key_path_db_cad_itens" translatable="false">itens</string>
+
+    <!-- ModelDB:
+        getCollectionReferencePedidos() -->
+    <string name="key_path_db_pedidos" translatable="false">pedidos</string>
+
+    <!-- ModelDB:
+        getCollectionReferenceUsuario() -->
+    <string name="key_path_db_usuarios" translatable="false">usuarios</string>
+
+    <!-- ModelDB:
+        getDocumentReferenceConfiguracao(); getCollectionReferenceCardapio() -->
+    <string name="key_path_db_configuracoes" translatable="false">configuracoes</string>
+
+    <!-- ModelDB:
+        retriveQuantidadeMesa(); updateQuantidadeMesa(); consultaMesa() -->
+    <string name="key_path_db_configuracoes_mesas_e_reservas" translatable="false">mesas</string>
+
+    <!-- ModelDB:
+        retriveReserva(); updateReserva(); -->
+    <string name="key_path_db_configuracoes_reservas" translatable="false">reserva</string>
+
+    <!-- ModelDB:
+            deleteHorario(); retriveHorariosFuncionamentos()
+         CadastrosHorariosPresenter:
+            salvaHorarios() -->
+    <string name="key_path_db_horario_funcionamento" translatable="false">horariosdefuncionamento</string>
+
+    <!--CadastrosHorariosPresenter:
+           salvaHorarios()
+        ModelDB:
+            deleteHorario() -->
+    <string name="key_path_db_horarios_espaciais" translatable="false">datasespeciaisreserva</string>
+
+    <!-- ModelDB:
+            retriveHorarios(); deleteHorario(); salvaHorarios()  -->
+    <string name="key_path_subDb_horario">horarios</string>
+
+    <!-- ModelDB:
+            retriveHorarios(); retriveDiasEspeciais(); deleteHorario; salvaHorarios() -->
+    <string name="key_path_subDb_datas">datas</string>
+
+    <!-- LoginPresenter:
+            responseVerificacaoNivelUser()
+         MenuActivity:
+            onCreateOptionsMenu() -->
+    <string name="key_nivelUser_adm" translatable="false">administrador</string>
+
+    <!-- LoginPresenter:
+            responseVerificacaoNivelUser() -->
+    <string name="key_nivelUser_cozinha" translatable="false">cozinha</string>
+
+    <string name="key_nivelUser_caixa" translatable="false">caixa</string>
+
+    <!-- ModelDB:
+           retrivePedidos();
+         PedidoPresenter:
+            responseRetrieve()
+         PedidosActivity:
+            onClickCardPedido() -->
+    <string name="key_status_cliente_pediu" translatable="false">Realizado</string>
+
+    <!-- ModelDB:
+            retrivePedidos();
+         PedidoPresenter:
+            responseRetrieve()
+         PedidosActivity:
+            onClickCardPedido() -->
+    <string name="key_status_cozinha_preparando" translatable="false">Em Preparo</string>
+
+    <!-- PedidosActivity:
+            onClickCardPedido() -->
+    <string name="key_status_3" translatable="false">Pronto</string>
+
+    <!-- CadastroItemActivity:
+            getInformacao(); setTextNaAtualizacao()
+         DetalheItemActivity:
+            setTextInfo() -->
+    <string name="key_item_disponivel_cardapio" translatable="false">sim</string>
+
+    <!-- CadastroItemActivity:
+            getInformacao();
+         ModelDB:
+            resetaMesa()
+         UsuarioPresenter:
+            responseReset() -->
+    <string name="key_item_nao_disponivel_cardapio" translatable="false">nao</string>
+
+    <!-- ModelDb:
+            updateQuantidadeMesa()
+         QuantidadeMesaPresenter:
+            responseRetriveQuantidade() -->
+    <string name="key_campo_qtMesa_total" translatable="false">quantidadedemesas</string>
+
+    <!-- LoginPresenter:
+            responseVerificacaoNivelUser()
+         MenuActivity:
+            onCreateOptionsMenu()
+         ModelDB:
+            updateNivelUser()
+         UsuarioActivity:
+            setButtonEnabled()
+         UsuarioPresenter:
+             responseUpdate(); updateNivel() -->
+    <string name="key_campo_nivelUser" translatable="false">nivelUser</string>
+
+    <!-- RelatorioVendasVendasPresenter:
+            criaQuery(); responseDados(); toObject()
+         PedidoPresenter:
+            toObject()
+         ModelDB:
+            salvaHorarios() -->
+    <string name="key_campo_data" translatable="false">data</string>
+
+    <!-- ModelDb:
+            retrivePedidos(); updateStatus()
+         CardapioObj:
+            CardapioObj(); getMap()
+         PedidoPresenter:
+            responseRetrieve(); toObject()-->
+    <string name="key_campo_statusitem" translatable="false">statusitem</string>
+
+    <!-- CardapioObj:
+            CardapioObj(); getMap()
+         RelatorioVendasVendasPresenter:
+            toObject()
+         CadastraItemPresenter:
+            validaCampos()
+         PedidoPresenter:
+            toObject() -->
+    <string name="key_campo_nome_prato" translatable="false">pratonome</string>
+
+    <!-- PedidoPresenter:
+            toObject() -->
+    <string name="key_campo_ponto_carne" translatable="false">pontocarne</string>
+
+    <!-- PedidoPresenter:
+            toObject() -->
+    <string name="key_campo_observacao" translatable="false">observacoes</string>
+
+    <!-- ModelDb:
+            deletaFoto();
+         CardapioObj:
+            CardapioObj(); getMap()
+         CadastraItemPresenter:
+            salvaCardapioObj()
+         DetalheItemPresenter:
+            responseDelete()
+         DetalheItemActivity:
+            setTextInfo(); setProgressVisibility() -->
+    <string name="key_campo_foto" translatable="false">pratofoto</string>
+
+    <!-- CardapioObj:
+            getMap();
+         CardapioPresenter:
+            toObject() -->
+    <string name="key_campo_avaliacao" translatable="false">avaliacao</string>
+
+    <!-- CardapioObj:
+            CardapioObj(); getMap()
+         RelatorioVendasVendasPresenter:
+            toObject()
+         CadastraItemPresenter:
+            fecharTela()
+         CardapioPresenter:
+            toObject()
+         CadastroItemActivity:
+            getInformacao() -->
+    <string name="key_campo_preco" translatable="false">preco</string>
+
+    <!-- CardapioObj:
+            CardapioObj(); getMap()
+         CadastraItemPresenter:
+            validaCampos()
+         CadastroItemActivity:
+            getInformacao()-->
+    <string name="key_campo_descricao" translatable="false">descricao</string>
+
+    <!-- CardapioObj:
+            getMap();
+         CardapioPresenter:
+            toObject() -->
+    <string name="key_campo_quantidade_avaliacao" translatable="false">quantidadeavaliacao</string>
+
+    <!-- CardapioObj:
+            CardapioObj(); getMap()
+         CadastraItemPresenter:
+            validaCampos()
+         CardapioPresenter:
+            toObject()
+          Lay - Detalhe_item -->
+    <string name="key_campo_categoria" translatable="false">categoria</string>
+
+    <!-- ModelDB:
+            retriveUsuario() -->
+    <string name="key_campo_cpf" translatable="false">cpf</string>
+
+    <!-- ModelDB:
+            resetaMesa() -->
+    <string name="key_campo_mesa" translatable="false">mesa</string>
+
+    <!-- ModelDb:
+            deletaItem();
+         DetalheItemPresenter:
+            responseDelete(); onResult()
+         CadastroItemActivity:
+            onCreate()
+         DetalheItemActivity:
+            onCreate()
+         HorarioEspecialActivity:
+            onActivityResult()
+         CadastrosHorariosActivity:
+            finishAcao()
+         HorarioFuncionamentoViewActivity:
+             onActivityResult() -->
+    <string name="key_item" translatable="false">item</string>
+
+    <!-- DetalheItemPresenter:
+            deletaItem(); getExceptionTask()
+         DetalheItemActivity:
+            finalizaDeleteItem()-->
+    <string name="key_delete" translatable="false">delete</string>
+
+    <!-- RelatoriosUtil:
+            getInfo()
+         RelatorioVendasActivity:
+            setText() -->
+    <string name="key_relatorioVendas_nome_mais" translatable="false">nomeMais</string>
+
+    <!-- RelatoriosUtil:
+            getInfo()
+         RelatorioVendasActivity:
+            setText() -->
+    <string name="key_relatorioVendas_nome_menos" translatable="false">nomeMenos</string>
+
+    <!-- RelatoriosUtil:
+            getInfo()
+         RelatorioVendasActivity:
+            setText() -->
+    <string name="key_relatorioVendas_quantidade_mais" translatable="false">qtMais</string>
+
+    <!-- RelatoriosUtil:
+            getInfo()
+         RelatorioVendasActivity:
+            setText() -->
+    <string name="key_relatorioVendas_quantidade_menos" translatable="false">qtMenos</string>
+
+    <!-- RelatoriosUtil:
+            getInfo()
+         RelatorioVendasActivity:
+            setText() -->
+    <string name="key_relatorioVendas_quantidade_pedido" translatable="false">qtPedido</string>
+
+    <!-- UsuarioActivity:
+           setButtonEnabled()
+         UsuarioPresenter:
+            resetaMesa(); responseReset() -->
+    <string name="key_usuario_resetar" translatable="false">resetar</string>
+
+    <!-- UsuarioActivity:
+               setButtonEnabled()
+         UsuarioPresenter:
+            retriveUsuario(); responseUsuario() -->
+    <string name="key_usuario_consulta" translatable="false">consulta</string>
+
+    <!-- UsuarioActivity:
+           setButtonEnabled()
+         UsuarioPresenter:
+            responseUsuario() -->
+    <string name="key_usuario_consultaSucesso" translatable="false">consultaSucesso</string>
+
+    <!-- HorarioEspecialActivity:
+            onCreate()
+         HorarioFuncionamentoViewActivity:
+            onCreate()
+         CadastrosHorariosActivity:
+            onCreate() -->
+    <string name="key_intent_tela" translatable="false">tela</string>
+
+    <!-- HorarioEspecialActivity:
+            onCreate()
+         HorarioFuncionamentoViewActivity:
+            onCreate()
+         CadastrosHorariosActivity:
+            onCreate() -->
+    <string name="key_intent_dia" translatable="false">dia</string>
+
+    <!-- HorarioFuncionamentoViewActivity:
+            onCreate() -->
+    <string name="key_tela_normal" translatable="false">normal</string>
+
+    <!-- HorarioEspecialActivity:
+            onCreate()
+         CadastrosHorariosActivity:
+            onCreate()
+         CadastrosHorariosPresenter
+             salvaHorarios(); validaData -->
+    <string name="key_tela_especial" translatable="false">especial</string>
+</resources>

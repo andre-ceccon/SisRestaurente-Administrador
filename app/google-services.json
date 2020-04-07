@@ -1,0 +1,115 @@
+{
+  "project_info": {
+    "project_number": "755409792352",
+    "firebase_url": "https://sis-restaurante.firebaseio.com",
+    "project_id": "sis-restaurante",
+    "storage_bucket": "sis-restaurante.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755409792352:android:7519471aa0d6c201",
+        "android_client_info": {
+          "package_name": "br.com.grupo17.sisrestaurante"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755409792352-tcrutbpl9aeooviornj4p4jgvrqb1csr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.grupo17.sisrestaurante",
+            "certificate_hash": "4b572242684f451fd109dc2700228ec93a02460d"
+          }
+        },
+        {
+          "client_id": "755409792352-uvi9kjovma0cmrebrf9kkmqmpcqm9k6s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.grupo17.sisrestaurante",
+            "certificate_hash": "894e4f75f01ffbbef49a4504beb93bda52ae817b"
+          }
+        },
+        {
+          "client_id": "755409792352-8gu7mp743mtilc8fadac5gjjiiiatqm8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDncO-TCCV8WxCE-t7jDyXmVFPoR2MKMEA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755409792352-8gu7mp743mtilc8fadac5gjjiiiatqm8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755409792352:android:135f9d2e526b9f37",
+        "android_client_info": {
+          "package_name": "br.com.grupo17.sisrestaurentecozinha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755409792352-liom528363mkogn7ogatu31id719bvpv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.grupo17.sisrestaurentecozinha",
+            "certificate_hash": "afe70a84e89dd637573b753b5ea869debe5b9b69"
+          }
+        },
+        {
+          "client_id": "755409792352-e5ucnkqssiui5hpf3u7qogi0p89nqlvb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.grupo17.sisrestaurentecozinha",
+            "certificate_hash": "fd4b355c48500feda9957ba254a051201dbf5ff7"
+          }
+        },
+        {
+          "client_id": "755409792352-8gu7mp743mtilc8fadac5gjjiiiatqm8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDncO-TCCV8WxCE-t7jDyXmVFPoR2MKMEA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755409792352-8gu7mp743mtilc8fadac5gjjiiiatqm8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

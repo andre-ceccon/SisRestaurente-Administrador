@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="br.com.grupo17.sisrestaurentecozinha">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".View.Administracao.Relatorios.AberturaFechamentoCaixaActivity"
+            android:label="@string/title_activity_abertura_fechamento_caixa"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".View.Caixa.AberturaActivity"
+            android:label="@string/title_activity_abertura"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.grupo17.sisrestaurentecozinha.View.MenuActivity" />
+        </activity>
+        <activity
+            android:name=".View.Administracao.Configuracoes.GerenciamentoCupomActivity"
+            android:label="@string/title_activity_gerenciamento_cupom"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".View.Caixa.PagamentoConcluidoActivity"
+            android:label="@string/title_activity_escolher_contas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".View.Caixa.PedidosActivity"
+            android:label="@string/title_activity_escolher_contas"
+            android:parentActivityName=".View.Caixa.EscolherContasActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.grupo17.sisrestaurentecozinha.View.Caixa.EscolherContasActivity" />
+        </activity>
+        <activity
+            android:name=".View.Administracao.Configuracoes.CadastrosHorariosActivity"
+            android:label="@string/title_activity_cadastros_horarios"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.grupo17.sisrestaurentecozinha.View.Caixa.EscolherMesaActivity" />
+        </activity>
+        <activity
+            android:name=".View.Caixa.EscolherContasActivity"
+            android:label="@string/title_activity_escolher_contas"
+            android:parentActivityName=".View.Caixa.EscolherMesaActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.grupo17.sisrestaurentecozinha.View.Caixa.EscolherMesaActivity" />
+        </activity>
+        <activity
+            android:name=".View.Administracao.Configuracoes.HorarioEspecialActivity"
+            android:label="@string/title_activity_horario_especial"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".View.Administracao.Configuracoes.UsuarioActivity"
+            android:label="@string/title_activity_usuario"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".View.Caixa.EscolherMesaActivity"
+            android:label="@string/title_activity_escolher_mesa"
+            android:parentActivityName=".View.MenuActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.grupo17.sisrestaurentecozinha.View.MenuActivity" />
+        </activity>
+        <activity
+            android:name=".View.Administracao.Configuracoes.HorarioFuncionamentoViewActivity"
+            android:label="@string/menu_subPrincipal_horasFuncionamento"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".View.Administracao.Configuracoes.ReservaConfiguracaoActivity"
+            android:label="@string/title_activity_reserva_configuracao"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".View.Administracao.Configuracoes.QuantidadeMesaActivity"
+            android:label="@string/title_activity_quantidade_mesa"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".View.Administracao.Relatorios.RelatorioVendasActivity"
+            android:label="@string/title_activity_relatorio"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".View.Cardapio.DetalheItemActivity"
+            android:label="@string/title_activity_detalhe_item"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".View.MenuActivity" />
+        <activity
+            android:name=".View.Cardapio.CadastroItemActivity"
+            android:label="@string/title_activity_catastro_item"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".View.Cardapio.GerenciadorCardapioActivity"
+            android:label="@string/title_activity_gerenciador_cardapio"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".View.Conta.RecuperarSenhaActivity"
+            android:label="@string/sub_title_recuperar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".View.PedidosActivity"
+            android:label="@string/title_activity_pedidos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".View.Conta.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+    </application>
+
+</manifest>

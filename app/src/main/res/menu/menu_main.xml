@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/menu_principal_relatorio">
+        <menu>
+            <item
+                android:id="@+id/id_vendas"
+                android:title="@string/menu_subPrincipal_vendas" />
+            <item
+                android:id="@+id/id_caixa"
+                android:title="Relatório  Caixa" />
+            <item
+                android:id="@+id/id_descontos"
+                android:title="@string/menu_subPrincipal_desconto" />
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_principal_configuracao">
+        <menu>
+            <item
+                android:id="@+id/reservas"
+                android:title="@string/menu_subPrincipal_reservas" />
+            <item
+                android:id="@+id/controle_user"
+                android:title="@string/menu_subPrincipal_usuario" />
+            <item
+                android:id="@+id/gerenciaento_cupom"
+                android:title="Cadastro de Cupom" />
+            <item
+                android:id="@+id/quantidades_mesa"
+                android:title="@string/menu_subPrincipal_qtMesa" />
+            <item
+                android:id="@+id/horario_funcionameno"
+                android:title="@string/menu_subPrincipal_horasFuncionamento" />
+        </menu>
+    </item>
+</menu>

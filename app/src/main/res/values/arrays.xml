@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_array">
+        <item>Acompanhamentos</item>
+        <item>Bebidas</item>
+        <item>Carnes</item>
+        <item>Frango</item>
+        <item>Saladas e vegetariano</item>
+        <item>Sobremesas</item>
+    </string-array>
+
+    <string-array name="dias_semanas">
+        <item>Segunda</item>
+        <item>Terça</item>
+        <item>Quarta</item>
+        <item>Quinta</item>
+        <item>Sexta</item>
+        <item>Sábado</item>
+        <item>Domingo</item>
+    </string-array>
+
+    <string-array name="niveis_user">
+        <item>cliente</item>
+        <item>garçom</item>
+        <item>cozinha</item>
+        <item>administrador</item>
+        <item>caixa</item>
+        <item>banido</item>
+    </string-array>
+</resources>
