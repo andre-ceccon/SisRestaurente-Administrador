@@ -10,13 +10,18 @@ O SIS Restaurantes é composto por dois aplicativos desenvolvidos para o Android
   - Sis Restaurantes Administrador: focado no gerenciamento do estabelecimento, para ser utilizado pelo gerente, profissionais da cozinha e caixa.
 
 ## Instaladores
-Se você quiser testar o aplicativo em modo de produção:
+Se você quiser testar os aplicativos em modo de produção:
 
-[Android .apk installer](https://play.google.com/store/apps/details?id=br.com.grupo17.sisrestaurentecozinha&hl=pt-BR)
-  - E-mail: adm@adm.com 
-  - Senha: adm123
+E-mail: adm@adm.com 
+Senha: adm123
 
-## Functionalities
+- Sis Restaurantes:
+  - [Android .apk installer](https://play.google.com/store/apps/details?id=br.com.grupo17.sisrestaurante&hl=pt-BR)
+  
+- Sis Restaurantes Administrador:
+  - [Android .apk installer](https://play.google.com/store/apps/details?id=br.com.grupo17.sisrestaurentecozinha&hl=pt-BR)
+
+## Funcionalidades deste aplicativo
   - Caixa.
   - Pedidos para preparar e em preparo:
     - Controle de preparo para a cozinha.
