@@ -12,7 +12,7 @@ O SIS Restaurantes é composto por dois aplicativos desenvolvidos para o Android
 ## Instaladores
 Se você quiser testar o aplicativo em modo de produção:
 
-[Android .apk installer](https://play.google.com/store/apps/details?id=vinho.andre.android.com.gerenciadorvinho)
+[Android .apk installer](https://play.google.com/store/apps/details?id=br.com.grupo17.sisrestaurentecozinha&hl=pt-BR)
   - E-mail: adm@adm.com 
   - Senha: adm123
 
@@ -30,7 +30,7 @@ Se você quiser testar o aplicativo em modo de produção:
 ## Começando
 
 ### Pré-requisitos
-Para executar este projeto no modo de desenvolvimento, você precisará de um ambiente básico para executar o Android Studio e o SDK Tools, que pode ser encontrado [aqui] (https://developer.android.com/about).
+Para executar este projeto no modo de desenvolvimento, você precisará de um ambiente básico para executar o Android Studio e o SDK Tools, que pode ser encontrado [aqui](https://developer.android.com/about).
 
 ### Instalando
 ** Clonando o Repositório **
